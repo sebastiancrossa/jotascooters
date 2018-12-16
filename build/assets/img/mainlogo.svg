@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.857 38.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #006df0;
+      }
+    </style>
+  </defs>
+  <g id="flash" transform="translate(-110.933)">
+    <g id="Group_1" data-name="Group 1" transform="translate(110.933)">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M132.73,13.228a.643.643,0,0,0-.582-.372H124.53L132.048.987A.643.643,0,0,0,131.5,0H121.219a.643.643,0,0,0-.575.355L111,19.641a.643.643,0,0,0,.575.93h6.61l-7.2,17.107a.643.643,0,0,0,1.084.664l20.571-24.428A.643.643,0,0,0,132.73,13.228Z" transform="translate(-110.933)"/>
+    </g>
+  </g>
+</svg>
