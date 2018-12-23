@@ -33,24 +33,46 @@
 			max-width: 260px
 			right: 170px
 			top: 120px
-			
-		.email-prompt
-			background: white
-			padding: 10px
-			padding-left: 35px
-			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-			border: none
-			line-height: 2
-			border-radius: 100px
-			font-family: inherit
-			font-size: 14px
-			width: 360px
-
-			margin-top: 5px
 		
+		.email-submit-input
+			position: relative
+			background-color: white
+			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+			display: flex
+			flex-direction: row
+			//border: 1px solid grey
+			padding: 2px
+			width: 450px
+			border-radius: 100px
 
-		.email-prompt::placeholder
-			color: rgba(149, 149, 149, 0.71)
+			z-index: 1000
+
+			.email-prompt
+				padding: 10px
+				padding-left: 35px
+				border: none
+				line-height: 2
+				border-radius: 100px
+				font-family: inherit
+				font-size: 14px
+				width: 360px
+
+			.email-prompt::placeholder
+				color: rgba(149, 149, 149, 0.71)
+
+			.submit-button
+				background: #006DF0
+				color: #FFFFFF
+				//width: 80px
+				border-radius: 100px
+				border: none
+				height: 40px
+				vertical-align: middle
+				text-align: center
+				padding: 0 20px
+				margin-top: 4px
+				margin-right: 6px
+				cursor: pointer
 
 		#company-logos
 			display: flex

@@ -238,9 +238,7 @@ input[type="button"] {
   input[type="button"]:hover,
   input[type="button"]:active,
   input[type="button"]:focus {
-    outline: 0;
-    transform: scale(1.01);
-    transform: translateY(3px); }
+    outline: 0; }
 
 a {
   color: #0074D9;
@@ -405,20 +403,39 @@ a.join-us {
     max-width: 260px;
     right: 170px;
     top: 120px; }
-  #header .content .email-prompt {
-    background: white;
-    padding: 10px;
-    padding-left: 35px;
+  #header .content .email-submit-input {
+    position: relative;
+    background-color: white;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-    border: none;
-    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    width: 450px;
     border-radius: 100px;
-    font-family: inherit;
-    font-size: 14px;
-    width: 360px;
-    margin-top: 5px; }
-  #header .content .email-prompt::placeholder {
-    color: rgba(149, 149, 149, 0.71); }
+    z-index: 1000; }
+    #header .content .email-submit-input .email-prompt {
+      padding: 10px;
+      padding-left: 35px;
+      border: none;
+      line-height: 2;
+      border-radius: 100px;
+      font-family: inherit;
+      font-size: 14px;
+      width: 360px; }
+    #header .content .email-submit-input .email-prompt::placeholder {
+      color: rgba(149, 149, 149, 0.71); }
+    #header .content .email-submit-input .submit-button {
+      background: #006DF0;
+      color: #FFFFFF;
+      border-radius: 100px;
+      border: none;
+      height: 40px;
+      vertical-align: middle;
+      text-align: center;
+      padding: 0 20px;
+      margin-top: 4px;
+      margin-right: 6px;
+      cursor: pointer; }
   #header .content #company-logos {
     display: flex;
     width: 450px;
