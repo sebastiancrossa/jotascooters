@@ -266,7 +266,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: bold;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Alegreya', sans-serif;
   font-weight: 900; }
 
 .gigantic {
@@ -308,8 +308,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0 0 20px 0;
-  font-weight: 400;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 em {
   font-style: italic; }
@@ -356,6 +356,52 @@ a.join-us {
   margin-left: 25px;
   font-size: 16px; }
 
+#features #features-layout {
+  margin: 10% 25px;
+  margin-top: 210px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-row-gap: 70px; }
+  #features #features-layout #feature-title {
+    width: 320px; }
+    #features #features-layout #feature-title h3 {
+      font-size: 35px;
+      font-weight: 300;
+      margin: 0; }
+    #features #features-layout #feature-title p {
+      font-size: 18px;
+      margin-top: 20px; }
+  #features #features-layout .feature {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 300px; }
+    #features #features-layout .feature h3 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      margin-bottom: 5px;
+      margin-top: -10px; }
+    #features #features-layout .feature img {
+      width: 45px;
+      margin-left: 20px;
+      margin-top: 25px; }
+    #features #features-layout .feature p {
+      font-size: 16px;
+      margin-bottom: 0; }
+    #features #features-layout .feature button {
+      position: relative;
+      border: none;
+      background: none;
+      font-size: 16px;
+      padding: 0;
+      bottom: -40px;
+      left: 20px;
+      color: #006DF0;
+      text-transform: none; }
+    #features #features-layout .feature .text-inside {
+      margin: 20px 20px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -388,12 +434,10 @@ a.join-us {
   display: grid;
   grid-template-columns: repeat(2, auto); }
   #header .content h1 {
-    font-family: 'Alegreya', sans-serif;
     font-size: 35px;
     margin-bottom: 15px;
     padding: 0; }
   #header .content p {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 20px;
     width: 450px; }
