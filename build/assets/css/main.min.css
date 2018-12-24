@@ -402,6 +402,31 @@ a.join-us {
     #features #features-layout .feature .text-inside {
       margin: 20px 20px; }
 
+#ui {
+  margin-top: 150px; }
+  #ui #ui-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto); }
+    #ui #ui-wrapper #phones {
+      display: flex;
+      position: absolute;
+      left: -65px; }
+      #ui #ui-wrapper #phones img {
+        max-width: 260px;
+        height: 515px; }
+    #ui #ui-wrapper .section-text {
+      margin-left: 500px;
+      margin-top: 90px;
+      max-width: 400px; }
+      #ui #ui-wrapper .section-text h3 {
+        font-family: 'Alegreya', sans-serif;
+        font-weight: 300;
+        font-size: 35px;
+        margin: 0; }
+      #ui #ui-wrapper .section-text p {
+        font-size: 18px;
+        margin-top: 20px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
