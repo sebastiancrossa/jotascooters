@@ -493,6 +493,38 @@ a.join-us {
   max-width: 350px;
   top: 1700px; }
 
+#redcircle-1 {
+  position: absolute;
+  max-width: 150px;
+  right: 150px;
+  color: red;
+  display: none; }
+
+#redcircle-1-png {
+  position: absolute;
+  max-width: 90px;
+  right: 150px;
+  top: 570px; }
+
+#redcircle-2-png {
+  position: absolute;
+  max-width: 80px;
+  z-index: -1;
+  top: 780px;
+  left: 10px; }
+
+#redcircle-3-png {
+  position: absolute;
+  max-width: 50px;
+  top: 1800px;
+  right: -8px; }
+
+#redcircle-4-png {
+  position: absolute;
+  max-width: 90px;
+  top: 2220px;
+  left: 390px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
