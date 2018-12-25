@@ -483,6 +483,16 @@ a.join-us {
       margin-right: 6px;
       cursor: pointer; }
 
+#blueblob-2 {
+  position: absolute;
+  max-width: 200px;
+  left: -50px; }
+
+#blueblob-3 {
+  position: absolute;
+  max-width: 350px;
+  top: 1700px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
