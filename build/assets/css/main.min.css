@@ -328,7 +328,7 @@ hr {
   display: flex;
   position: relative;
   margin-top: 20px;
-  padding: 0;
+  padding: 0 5%;
   z-index: 100; }
   .main-nav li {
     list-style: none; }
@@ -563,7 +563,7 @@ a.join-us {
   position: absolute;
   margin-left: 450px;
   max-width: 800px;
-  z-index: 0;
+  z-index: -1;
   top: 0;
   right: 0;
   align-content: center;
